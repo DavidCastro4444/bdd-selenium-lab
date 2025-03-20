@@ -197,11 +197,4 @@ Este proyecto demuestra cómo aplicar BDD con Cucumber y Selenium WebDriver, per
 
 El enfoque utilizado mejora la comunicación entre los equipos de desarrollo y calidad, asegurando que la funcionalidad de la aplicación sea validada con escenarios reales de usuario.
 
-📌 Autor: [Tu Nombre]
-📅 Fecha: [Fecha del Proyecto]
-
-python
-Copiar
-Editar
-
-Este **README** explica de manera clara la estructura del proyecto y el enfoque BDD utilizado. 
+📌 Autor: David Santiago Castro vargas
