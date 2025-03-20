@@ -80,9 +80,6 @@ Aquí, los métodos están anotados con @Given, @When y @Then para mapear los pa
 3️⃣ Modelo de Página - Page Object Model (POM)
 Para mejorar la estructura y reutilización del código, se utiliza el patrón Page Object Model (POM) en pages/CheckBoxPage.java.
 
-java
-Copiar
-Editar
 public class CheckBoxPage {
     private WebDriver driver;
 
@@ -116,9 +113,7 @@ Para ejecutar las pruebas, sigue estos pasos:
 
 2️⃣ Ejecutar los escenarios de prueba con Cucumber:
 
-bash
-Copiar
-Editar
+
 mvn test
 Esto ejecutará los escenarios definidos en features/CheckboxSelection.feature utilizando las implementaciones de los step definitions.
 
