@@ -1,17 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="5.643">
-    <testcase classname="Login functionality on The Internet" name="Successful login with valid credentials" time="2.856">
-        <system-out><![CDATA[Given the user is on the login page.........................................passed
-When the user enters username "tomsmith" and password "SuperSecretPassword!".passed
-And the user clicks the login button........................................passed
-Then the user should be redirected to the secure area.......................passed
-And a success "You logged into a secure area!" should be displayed..........passed
-]]></system-out>
-    </testcase>
-    <testcase classname="Google Search" name="Search for a term" time="2.555">
-        <system-out><![CDATA[Given I am on the Google search page........................................passed
-When I search for "GitHub"..................................................passed
-Then I should see "GitHub" in the results...................................passed
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="2.422">
+    <testcase classname="Checkbox Selection" name="Verify checkboxes can be selected and deselected" time="2.242">
+        <system-out><![CDATA[Given I open the checkboxes page............................................passed
+When I check the first checkbox.............................................passed
+Then The first checkbox should be checked...................................passed
+When I uncheck the second checkbox..........................................passed
+Then The second checkbox should be unchecked................................passed
 ]]></system-out>
     </testcase>
 </testsuite>
